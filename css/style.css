@@ -1,0 +1,186 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+ol, ul {
+	list-style: none;
+}
+del {
+	text-decoration: line-through;
+}
+body {
+	font-family: "Circular-Std-Regular", Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	color: #1C2C40;
+	overflow-x: hidden;
+	min-width: 320px;
+	font-weight: 400;
+}
+input,textarea,select{
+	font-family: "Circular-Std-Regular", Arial, Helvetica, sans-serif;
+	font-weight: 400;
+}
+
+a{
+	color: #1C2C40;
+}
+a:hover,.submit:hover{
+	filter: alpha(opacity = 85);
+	-moz-opacity: 0.85;
+	-khtml-opacity: 0.85;
+	opacity: 0.85;
+}
+.thumb{
+	display: block;
+}
+.thumb img{
+	display: block;
+	width:100%;
+}
+p{
+	line-height:1.6em;
+	font-size: 16px;
+	font-family: "Circular-Std-Regular", Arial;
+	font-weight: 400;
+}
+.hidden{
+	display:none;
+}
+br.clear {
+	clear: both;
+	line-height: 0;
+}
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	max-width:980px;
+}
+@font-face {
+	font-family: 'Circular-Std-Regular';
+	src:url('../fonts/CircularStd-Regular.woff2') format('woff2');
+	src:url('../fonts/CircularStd-Regular.woff') format('woff');
+	font-style: normal;
+}
+@font-face {
+    font-family: 'Circular-Std-Bold';
+    src: url("../fonts/CircularStd-Bold.woff2") format("woff2");
+    src: url("../fonts/CircularStd-Bold.woff") format("woff");
+    font-style: normal
+}
+::placeholder {
+  color:#D3CFCB;
+  padding-left: 30px;
+}
+body {
+	height: 713px;
+}
+section.main {
+	background-image: url(../images/bg.png);
+	width: 100%;
+	background-size: 100vw 100vh;
+	height: 100vh;
+	color: #FFFFFF;
+}
+header {
+	display: flex;
+	justify-content: center;
+	padding-top: 30px;
+	height: 100px;
+	/* position: fixed; */
+   
+   }
+   
+   header .container {
+	display: flex;
+	justify-content: space-between;
+	width: 1300px;
+	/* position: fixed; */
+   }
+   
+   header .container .left ul {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	width: 600px;
+   
+   }
+   
+   header .container .left ul li, .right ul li  {
+	font-weight: bold;
+	color: white;
+   }
+   
+   
+   header .container .right ul {
+	display: flex;
+	align-items: center;
+	width: 200px;
+	justify-content: space-evenly;
+	height: 30px;
+   }
+   
+   .green-label-btn {
+	width: 100px;
+	height: 40px;
+	background-color: #2DCA73;
+	border-radius: 10px;
+   }
+   
+   .green-label-btn a {
+	color: white;
+	font-weight: bold;
+   }
+section.spotlight{
+	padding-top: 105px;
+}
+div.five {
+	text-align: center;
+}
+div.five h1 {
+	font-size: 55px;
+	font-weight: bold;
+	padding-left: 50px;
+}
+div.five p {
+	font-size: 20px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	padding-left: 50px;
+}
+section .spotlight .five form {
+	width: 730px;
+	height: 80px;
+	background-color: #fff;
+	margin-top: 40px;
+	margin-left: 450px;
+	border-radius: 7px;
+	padding-top: 20px;
+	padding-left: 18px;
+}
+section .spotlight .five input {
+	height: 40px;
+	width: 500px;
+	border: 2px solid #2DCA73;
+	border-radius: 7px;
+}
+div.inside {
+	display: flex;
+}
+section .spotlight .five button {
+	background: #2DCA73;
+	width: 150px;
+	height: 40px;
+	border-radius: 7px;
+	color: #fff;
+	font-weight: bolder;
+	margin-left: 30px;
+} 
